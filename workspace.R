@@ -1,13 +1,15 @@
 library(tercen)
 library(dplyr)
 
-options("tercen.workflowId" = "01cb95cd7b746443ed9f40625200ef4f")
-options("tercen.stepId"     = "20a59891-7ac9-4b48-8124-2b46ac24a549")
+options("tercen.workflowId" = "19975e0adc3267c4665f02d347003604")
+options("tercen.stepId"     = "c5f084df-dd2a-449b-8630-00e5b9007f9c")
 
 getOption("tercen.workflowId")
 getOption("tercen.stepId")
 
-(ctx = tercenCtx()) %>% 
+ctx <- tercenCtx()
+
+ctx %>% 
   select(.x, .y) %>%
   transmute(product = .y * .x) %>%
   ctx$addNamespace() %>%

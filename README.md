@@ -1,4 +1,4 @@
-# multiply operator
+# Multiply
 
 ##### Description
 

@@ -1,8 +1,14 @@
 {
   "name": "Multiply",
   "description": "Returns the product of two values",
-  "tags": ["basic operations"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/multiply_operator"],
+  "tags": [
+    "arithmetic"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/multiply_operator"
+  ],
   "properties": []
 }

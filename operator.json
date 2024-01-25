@@ -1,6 +1,6 @@
 {
   "name": "Multiply",
-  "description": "Returns the product of two values",
+  "description": "Computes the product of two values.",
   "tags": [
     "arithmetic"
   ],

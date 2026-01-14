@@ -10,6 +10,8 @@ Input projection|.
 ---|---
 `y-axis`           | is the initial value before multiplication
 `x-axis`           | is the value to be multiplied to the initial value
+`row`           | optional, variable identifiers (e.g. channel, marker name)
+`column`           | optional, observation identifiers (e.g. event ID)
 
 Output relations|.
 ---|---
